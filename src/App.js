@@ -1,10 +1,14 @@
 import './css/app.css';
 import './js/transition';
-import HeroBanner from "./components/heroBanner";
-import TopBar from "./components/topBar";
-import LanguagesBanner from './components/languagesBanner';
-import TransitionBanner from './components/transitionBanner';
+
+// COMPONENTS
 import BarNotification from './components/decorations/barNotification';
+import CertificatesBanner from './components/certificatesBanner';
+import HeroBanner from "./components/heroBanner";
+import LanguagesBanner from './components/languagesBanner';
+import SeparatorGradient from './components/decorations/separatorGradient';
+import TopBar from "./components/topBar";
+import TransitionBanner from './components/transitionBanner';
 
 function App() {
   return (
@@ -15,9 +19,11 @@ function App() {
         {/* Who am I */}
         <HeroBanner />
         <LanguagesBanner />
-        <TransitionBanner />
+        <SeparatorGradient />
         {/* What am I looking for */}
+        <TransitionBanner />
         {/* Credentials */}
+        <CertificatesBanner />
         {/* Projects */}
         {/* Contact */}
         {/* Bottom Bar */}

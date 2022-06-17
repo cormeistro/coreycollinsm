@@ -1,6 +1,6 @@
 window.addEventListener('scroll', (e) => {
 
-    if (window.scrollY > 650 && window.scrollY < 4000) {
+    if (window.scrollY > 650) {
         // enable dark mode
         document.body.classList.remove('bg-light');
         document.body.classList.add('bg-dark');

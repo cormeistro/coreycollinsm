@@ -2,10 +2,13 @@
 
 :root {
   --gray-dark: #2A2A2A;
+  --gray-brightened: #333333;
   --gray-medium: #777777;
   --gray-light: #EEEEEE;
   --primary-dark: #5f55ab;
   --primary-light: #f43b47;
+  --complete: #00cc77;
+  --active: #00b1cc;
 }
 
 /* SMALL SCREENS */
@@ -22,6 +25,12 @@
   h4 {
     font-size: 5vw;
   }
+  h5 {
+    font-size: 4rem;
+  }
+  h6 {
+    font-size: 3rem;
+  }
   i {
     font-size: 10vw;
   }
@@ -30,6 +39,12 @@
   }
   .blip {
     display: none;
+  }
+  .cert {
+    width: 100%;
+  }
+  .cert-details {
+    text-align: center;
   }
   .hero-banner {
     background: none !important;
@@ -53,8 +68,17 @@
   h4 {
     font-size: 1.75rem;
   }
+  h5 {
+    font-size: 1.25rem;
+  }
+  h6 {
+    font-size: 1rem;
+  }
   i {
     font-size: 3vw;
+  }
+  .cert {
+    width: 15vw;
   }
   .hamburger-menu {
     display: none;
@@ -146,9 +170,12 @@ nav ul {
   color: var(--gray-dark);
 }
 
-.container {
-  display: grid;
-  margin: 0 50px;
+.border-active {
+  border-color: var(--active) !important;
+}
+
+.border-complete {
+  border-color: var(--complete) !important;
 }
 
 .border-gradient {
@@ -161,13 +188,75 @@ nav ul {
   text-align: center;
 }
 
+.cert {
+  background-color: var(--gray-brightened);
+  background-position: 90% 90%;
+  background-size: auto 30%;
+  background-repeat: no-repeat;
+  border: solid 1px var(--gray-dark);
+  display: grid;
+  padding: 50px;
+}
+
+.certs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.cert-banner {
+  display: grid;
+  gap: 100px;
+  justify-items: center;
+  padding: 5vw 0;
+}
+
+.cert-details {
+  display: grid;
+  gap: 10px;
+  padding: 50px 0;
+}
+
+.cert-progress-bar {
+  align-items: center;
+  border-bottom: solid 3px var(--gray-dark);
+  display: flex;
+  gap: 25px;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.cert-progress-bar i {
+  font-size: 2rem !important;
+}
+
+.cert-progress-line {
+  border-radius: 5px;
+  height: 3px;
+  width: 100%;
+}
+
+/* Progress Bar Icons */
+.complete, .inProgress {
+  color: var(--complete);
+}
+
+.notStarted {
+  color: var(--gray-medium);
+}
+
+.container {
+  display: grid;
+  margin: 0 50px;
+}
+
 .hamburger-menu {
   font-size: 2.5rem;
 }
 
 .hero-banner {
   align-items: center;
-  background-color: green;
   background: url(../images/Banner.png);
   background-position: right;
   background-repeat: no-repeat;
@@ -207,7 +296,6 @@ nav ul {
 }
 
 .j-right {
-  background-color: green;
   justify-content: right;
   justify-items: right;
   text-align: right;
@@ -247,7 +335,7 @@ nav ul {
   flex-wrap: wrap;
   gap: 100px;
   justify-content: center;
-  padding: 10vw 0;
+  padding: 5vw 0;
 }
 
 .transition-section {
