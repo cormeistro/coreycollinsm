@@ -10,17 +10,23 @@
 
 /* SMALL SCREENS */
 @media only screen and (max-width: 1200px) {
+  button {
+    font-size: 5vw;
+  }
   h1 {
+    font-size: 10vw; 
+  }
+  h2, h3 {
     font-size: 8vw; 
   }
-  h2 {
-    font-size: 7vw; 
-  }
-  h3 {
-    font-size: 2rem;
-  }
   h4 {
-    font-size: 1.25rem;
+    font-size: 5vw;
+  }
+  i {
+    font-size: 10vw;
+  }
+  p {
+    font-size: 4vw;
   }
   .blip {
     display: none;
@@ -32,6 +38,9 @@
 
 /* BIG SCREENS */
 @media only screen and (min-width: 1200px) {
+  button {
+    font-size: 1rem;
+  }
   h1 {
     font-size: 5rem; 
   }
@@ -44,23 +53,29 @@
   h4 {
     font-size: 1.75rem;
   }
+  i {
+    font-size: 3vw;
+  }
   .hamburger-menu {
     display: none;
   }
-  .hero-banner {
-    padding-left: 5vw;
-  }
   .hero-quote {
     font-size: 1.25rem;
+    max-width: 700px;
   }
   .transition-section {
     font-size: 1.25rem;
+    max-width: 35vw;
   }
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;  
 }
 
 body {
@@ -74,7 +89,6 @@ body {
 button {
   background: none;
   border: none;
-  font-size: 1rem;
   font-weight: 900;
 }
 
@@ -99,7 +113,7 @@ nav ul {
   display: flex;
   gap: 25px;
   justify-content: center;
-  padding: 10px 25px;
+  padding: 25px 25px;
   text-align: justify;
 }
 
@@ -132,10 +146,6 @@ nav ul {
   color: var(--gray-dark);
 }
 
-.btn-contact {
-  max-width: 120px;
-}
-
 .container {
   display: grid;
   margin: 0 50px;
@@ -163,7 +173,7 @@ nav ul {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  gap: 25px;
+  gap: 50px;
   padding-bottom: 7.5vw;
   padding-top: 7.5vw;
 }
@@ -171,8 +181,7 @@ nav ul {
 .hero-links {
   align-items: center;
   display: flex;
-  font-size: 3rem;
-  gap: 15px;
+  gap: 25px;
 }
 
 .hero-links a {
@@ -180,12 +189,10 @@ nav ul {
 }
 
 .hero-links button {
-  padding: 15px 15px;
+  padding: 15px 25px;
 }
 
 .hero-quote {
-  line-height: 25px;
-  max-width: 600px;
   text-align: justify;
 }
 
@@ -212,7 +219,6 @@ nav ul {
 }
 
 .logo h3 {
-  font-size: 2.5rem;
   font-weight: 900;
 }
 
@@ -239,32 +245,25 @@ nav ul {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  gap: 100px;
   justify-content: center;
-  gap: 50px;
   padding: 10vw 0;
-}
-
-.transition-arrow {
-  font-size: 3rem;
 }
 
 .transition-section {
   display: grid;
-  gap: 15px;
-  max-width: 475px;
-  min-width: 300px;
-}
-
-a {
-  text-decoration: none;  
+  gap: 25px;
 }
 
 .transition-section h4 {
   font-weight: 300;
 }
 
+.transition-section i {
+  font-size: 1rem !important;
+}
+
 .transition-section p {
   font-weight: 300;
-  line-height: 25px;
   text-align: justify;
 }
