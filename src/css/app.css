@@ -99,7 +99,8 @@ nav ul {
   display: flex;
   gap: 25px;
   justify-content: center;
-  padding: 10px 0;
+  padding: 10px 25px;
+  text-align: justify;
 }
 
 .bar-notification button {

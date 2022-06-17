@@ -9,7 +9,7 @@ import BarNotification from './components/decorations/barNotification';
 function App() {
   return (
     <>
-      <BarNotification onDismiss={handleNotificationDismiss}/>
+      <BarNotification onDismiss={handleNotificationDismiss} message="Please note that this site is still under development as a personal project. Some items like navigation and Contact buttons aren't fully functional yet" />
       <div className="container">
         <TopBar />
         {/* Who am I */}
