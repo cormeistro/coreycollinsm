@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+:root {
+  --gray-dark: #2A2A2A;
+  --gray-medium: #777777;
+  --gray-light: #EEEEEE;
+  --primary-dark: #5f55ab;
+  --primary-light: #f43b47;
+}
+
+/* SMALL SCREENS */
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 8vw; 
+  }
+  h2 {
+    font-size: 7vw; 
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  .blip {
+    display: none;
+  }
+  .hero-banner {
+    background: none !important;
+  }
+}
+
+/* BIG SCREENS */
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 5rem; 
+  }
+  h2 {
+    font-size: 3.5rem; 
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 1.75rem;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .hero-banner {
+    padding-left: 5vw;
+  }
+  .hero-quote {
+    font-size: 1.25rem;
+  }
+  .transition-section {
+    font-size: 1.25rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+nav a {
+  color: var(--gray-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.bar-notification {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.bar-notification button {
+  border: solid 1px var(--gray-light);
+  border-radius: 10px;
+  color: var(--gray-light);
+  padding: 5px 10px;
+}
+
+.bg-code {
+  background: url(../images/Code\ Banner.png);
+  background-attachment: fixed;
+  background-size: contain;
+  color: var(--gray-light);
+}
+
+.bg-dark {
+  background-color: var(--gray-dark);
+  color: var(--gray-light);
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+  color: var(--gray-light);
+}
+
+.bg-light {
+  background-color: var(--gray-light);
+  color: var(--gray-dark);
+}
+
+.btn-contact {
+  max-width: 120px;
+}
+
+.container {
+  display: grid;
+  margin: 0 50px;
+}
+
+.border-gradient {
+  max-width: 100px;
+}
+
+.border-gradient-inner {
+  margin: 3px;
+  padding: 10px;
+  text-align: center;
+}
+
+.hamburger-menu {
+  font-size: 2.5rem;
+}
+
+.hero-banner {
+  align-items: center;
+  background-color: green;
+  background: url(../images/Banner.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  gap: 25px;
+  padding-bottom: 7.5vw;
+  padding-top: 7.5vw;
+}
+
+.hero-links {
+  align-items: center;
+  display: flex;
+  font-size: 3rem;
+  gap: 15px;
+}
+
+.hero-links a {
+  color: var(--gray-dark);
+}
+
+.hero-links button {
+  padding: 15px 15px;
+}
+
+.hero-quote {
+  line-height: 25px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.hero-slogan h1 {
+  font-weight: 900;
+}
+
+.inactive {
+  color: var(--gray-medium);
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+
+.j-right {
+  background-color: green;
+  justify-content: right;
+  justify-items: right;
+  text-align: right;
+}
+
+.languages-banner {
+  padding: 7.5vw 20px;
+  text-align: center;
+}
+
+.logo h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.separator {
+  height: 3px;
+}
+
+.t-gradient {
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.top-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.transition-banner {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 10vw 0;
+}
+
+.transition-arrow {
+  font-size: 3rem;
+}
+
+.transition-section {
+  display: grid;
+  gap: 15px;
+  max-width: 475px;
+  min-width: 300px;
+}
+
+a {
+  text-decoration: none;  
+}
+
+.transition-section h4 {
+  font-weight: 300;
+}
+
+.transition-section p {
+  font-weight: 300;
+  line-height: 25px;
+  text-align: justify;
+}
