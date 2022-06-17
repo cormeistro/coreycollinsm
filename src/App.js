@@ -9,6 +9,7 @@ import LanguagesBanner from './components/languagesBanner';
 import SeparatorGradient from './components/decorations/separatorGradient';
 import TopBar from "./components/topBar";
 import TransitionBanner from './components/transitionBanner';
+import JobHistory from './components/jobsBanner';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <TransitionBanner />
         {/* Credentials */}
         <CertificatesBanner />
+        <JobHistory />
         {/* Projects */}
         {/* Contact */}
         {/* Bottom Bar */}

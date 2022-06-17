@@ -13,6 +13,7 @@ const TopBanner = () => {
                 <a href="http://instagram.com/cormeistro" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
                 <a href="http://twitter.com/cormeistro" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
                 <a href="https://www.linkedin.com/in/corey-collins-925314154/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/cormeistro" target="_blank"><i className="fa-brands fa-github-square"></i></a>
             </div>
         </div>
     );

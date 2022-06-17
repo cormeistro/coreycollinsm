@@ -29,7 +29,7 @@ class CertificatesBanner extends Component {
                         return (
 
                             <div 
-                            className="cert" 
+                            className="cert bg-brightened" 
                             id={"cert-" + cert.id} 
                             key={cert.id} 
                             style={{ backgroundImage: `url(${this.getURL(cert.language)})` }}
