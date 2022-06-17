@@ -29,7 +29,7 @@ const certs = [
     },
     {
         id: 7,
-        certName: "Responseive HTML & CSS",
+        certName: "Responsive HTML & CSS",
         certVendor: "Jonas Schmedtmann",
         phase: 7,
         language: "html"

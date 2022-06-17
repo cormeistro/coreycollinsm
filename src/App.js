@@ -3,13 +3,14 @@ import './js/transition';
 
 // COMPONENTS
 import BarNotification from './components/decorations/barNotification';
+import CallToActionBanner from './components/ctaBanner';
 import CertificatesBanner from './components/certificatesBanner';
 import HeroBanner from "./components/heroBanner";
+import JobHistory from './components/jobsBanner';
 import LanguagesBanner from './components/languagesBanner';
 import SeparatorGradient from './components/decorations/separatorGradient';
 import TopBar from "./components/topBar";
 import TransitionBanner from './components/transitionBanner';
-import JobHistory from './components/jobsBanner';
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
         {/* Credentials */}
         <CertificatesBanner />
         <JobHistory />
-        {/* Projects */}
+        <SeparatorGradient />
+        {/* Call to Action */}
+        <CallToActionBanner />
         {/* Contact */}
         {/* Bottom Bar */}
       </div>

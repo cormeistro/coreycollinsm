@@ -102,12 +102,12 @@
   .cert-progress-line {
     height: 5px;
   }
-  .hamburger-menu {
-    display: none;
-  }
-  .hero-quote {
+  .cta-quote, .hero-quote {
     font-size: 1.25rem;
     max-width: 700px;
+  }
+  .hamburger-menu {
+    display: none;
   }
   .transition-section {
     font-size: 1.25rem;
@@ -268,6 +268,18 @@ nav ul {
 .container {
   display: grid;
   margin: 0 50px;
+}
+
+.cta-banner {
+  align-items: center;
+  display: grid;
+  gap: 50px;
+  justify-items: center;
+  padding: 5vw 0;
+}
+
+.cta-quote {
+  text-align: justify;
 }
 
 .hamburger-menu {
