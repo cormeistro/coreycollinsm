@@ -1,14 +1,7 @@
 const certs = [
     {
         id: 1,
-        certName: "JavaScript Mastery I",
-        certVendor: "Code with Mosh",
-        phase: 7,
-        language: "javascript"
-    },
-    {
-        id: 2,
-        certName: "JavaScript Mastery II",
+        certName: "JavaScript Mastery I & II",
         certVendor: "Code with Mosh",
         phase: 7,
         language: "javascript"
@@ -33,13 +26,6 @@ const certs = [
         certVendor: "Code with Mosh",
         phase: 3,
         language: "node"
-    },
-    {
-        id: 6,
-        certName: "Ultimate TypeScript",
-        certVendor: "Code with Mosh",
-        phase: 0,
-        language: "typescript"
     },
     {
         id: 7,

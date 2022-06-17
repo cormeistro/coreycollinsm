@@ -29,7 +29,7 @@ class CertificatesBanner extends Component {
                         return (
 
                             <div 
-                            className={"cert" + this.getBorderColor(cert.phase)} 
+                            className="cert" 
                             id={"cert-" + cert.id} 
                             key={cert.id} 
                             style={{ backgroundImage: `url(${this.getURL(cert.language)})` }}
@@ -50,12 +50,6 @@ class CertificatesBanner extends Component {
         );
     }
 
-    getBorderColor(num) {
-        if (num === 7) return " border-complete";
-        else if (num > 0) return " border-active";
-        else return "";
-    }
-
     getProgress(num) {
 
         const inProgress = "-dot";
@@ -64,9 +58,9 @@ class CertificatesBanner extends Component {
         return (
             <div className="cert-progress-bar">
                 <i className={this.getStyle(num, 1)}></i>
-                <div className="bg-light cert-progress-line"></div>
+                <div className="bg-dark cert-progress-line"></div>
                 <i className={this.getStyle(num, 2)}></i>
-                <div className="bg-light cert-progress-line"></div>
+                <div className="bg-dark cert-progress-line"></div>
                 <i className={this.getStyle(num, 3)}></i>
             </div>
         );
