@@ -11,13 +11,15 @@ import LanguagesBanner from './components/languagesBanner';
 import SeparatorGradient from './components/decorations/separatorGradient';
 import TopBar from "./components/topBar";
 import TransitionBanner from './components/transitionBanner';
+import ContactBanner from './components/contactBanner';
+import BottomBar from './components/bottomBar';
 
 function App() {
   return (
     <>
       <BarNotification onDismiss={handleNotificationDismiss} message="Please note that this site is still under development as a personal project. Some items like navigation and Contact buttons aren't fully functional yet" />
-      <div className="container">
         <TopBar />
+      <div className="container">
         {/* Who am I */}
         <HeroBanner />
         <LanguagesBanner />
@@ -31,8 +33,10 @@ function App() {
         {/* Call to Action */}
         <CallToActionBanner />
         {/* Contact */}
-        {/* Bottom Bar */}
+        <ContactBanner />
       </div>
+      {/* Bottom Bar */}
+      <BottomBar />
     </>
   );
 }

@@ -15,7 +15,7 @@
 /* SMALL SCREENS */
 @media only screen and (max-width: 1200px) {
   button {
-    font-size: 5vw;
+    font-size: 2.5vw;
   }
   h1 {
     font-size: 10vw; 
@@ -163,7 +163,7 @@ nav ul {
   display: flex;
   gap: 25px;
   justify-content: center;
-  padding: 25px 25px;
+  padding: 10px 25px;
   text-align: justify;
 }
 
@@ -200,6 +200,16 @@ nav ul {
   color: var(--gray-dark);
 }
 
+.bg-medium {
+  background-color: var(--gray-medium);
+  color: var(--gray-light);
+}
+
+.bg-white {
+  background-color: white;
+  color: var(--gray-dark);
+}
+
 .border-gradient {
   max-width: 100px;
 }
@@ -208,6 +218,13 @@ nav ul {
   margin: 3px;
   padding: 10px;
   text-align: center;
+}
+
+.bottom-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2.5vh;
 }
 
 .cert {
@@ -263,6 +280,57 @@ nav ul {
 
 .notStarted {
   color: var(--gray-dark);
+}
+
+.contact-banner {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  padding: 5vw 0;
+}
+
+.contact-fields {
+  display: grid;
+  gap: 25px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 25px;
+  padding: 25px;
+}
+
+.contact-fields button {
+  max-width: 150px;
+  padding: 15px 25px;
+}
+
+.contact-row {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-row sup {
+  color: var(--primary-light);
+  font-size: 50%;
+  margin-right: 5px;
+}
+
+.contact-row input {
+  border: 1px solid var(--gray-light);
+  height: 40px;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+.contact-row textarea {
+  border: 1px solid var(--gray-light);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  padding: 10px;
+  resize: none;
 }
 
 .container {
@@ -389,14 +457,16 @@ nav ul {
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
 .top-bar {
   align-items: center;
+  background-color: var(--gray-light);
   display: flex;
   justify-content: space-between;
-  margin: 40px 0;
+  padding: 25px 50px;
+  position: sticky;
+  top: 0px;
 }
 
 .transition-banner {
