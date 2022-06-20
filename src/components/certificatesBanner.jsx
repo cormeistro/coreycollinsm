@@ -20,7 +20,7 @@ class CertificatesBanner extends Component {
 
     render() {
         return (
-            <div className="cert-banner" id="cert-banner">
+            <div className="certs-banner" id="certs-banner">
                 <h2>Certifications</h2>
                 <div className="certs">
                     {this.state.certs
