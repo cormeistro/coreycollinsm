@@ -1,5 +1,3 @@
-import SeparatorGradient from "./decorations/separatorGradient";
-
 const ContactBanner = () => {
     return (
         <div className="contact-banner" id="contact-banner">
