@@ -2,7 +2,6 @@ import './css/app.css';
 import './js/transition';
 
 // COMPONENTS
-import BarNotification from './components/decorations/barNotification';
 import CallToActionBanner from './components/ctaBanner';
 import CertificatesBanner from './components/certificatesBanner';
 import HeroBanner from "./components/heroBanner";
@@ -17,8 +16,7 @@ import BottomBar from './components/bottomBar';
 function App() {
   return (
     <>
-      <BarNotification onDismiss={handleNotificationDismiss} message="Please note that this site is still under development as a personal project. Some items like navigation and Contact buttons aren't fully functional yet" />
-        <TopBar />
+      <TopBar />
       <div className="container">
         {/* Who am I */}
         <HeroBanner />

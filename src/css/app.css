@@ -225,6 +225,8 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 2.5vh;
+  position: sticky;
+  bottom: 0px;
 }
 
 .cert {
@@ -319,17 +321,18 @@ nav ul {
 }
 
 .contact-row input {
-  border: 1px solid var(--gray-light);
   height: 40px;
-  font-size: 1.5rem;
-  padding: 0 10px;
+}
+
+.contact-row input, .contact-row textarea {
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 10px;
 }
 
 .contact-row textarea {
-  border: 1px solid var(--gray-light);
   font-family: 'Roboto', sans-serif;
-  font-size: 1.25rem;
-  padding: 10px;
   resize: none;
 }
 
