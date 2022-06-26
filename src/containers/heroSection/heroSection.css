@@ -1,0 +1,48 @@
+/* SMALL SCREENS */
+@media only screen and (max-width: 1200px) {
+    .hero-section {
+      background: none !important;
+    }
+}
+
+/* BIG SCREENS */
+@media only screen and (min-width: 1200px) {
+    .hero-quote {
+      font-size: 1.25rem;
+      max-width: 700px;
+    }
+}
+
+.hero-section {
+    align-items: center;
+    background: url(./images/Banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    gap: 50px;
+    padding-bottom: 7.5vw;
+    padding-top: 7.5vw;
+}
+
+.hero-links {
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+
+.hero-links a {
+    color: var(--gray-dark);
+}
+
+.hero-links button {
+    padding: 15px 25px;
+}
+
+.hero-slogan h1 {
+    font-weight: 900;
+}
+
+.hero-quote {
+    text-align: justify;
+}

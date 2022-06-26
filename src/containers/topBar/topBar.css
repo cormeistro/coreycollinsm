@@ -1,0 +1,26 @@
+
+nav a {
+    color: var(--gray-dark);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.logo h3 {
+    font-weight: 900;
+}
+
+.top-bar {
+    align-items: center;
+    background-color: var(--gray-light);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    position: sticky;
+    top: 0px;
+}

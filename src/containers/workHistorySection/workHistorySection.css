@@ -1,0 +1,53 @@
+
+/* SMALL SCREENS */
+@media only screen and (max-width: 1200px) {
+    .job-description {
+      font-size: 1.5rem;
+      line-height: 50px;
+    }
+    .job-years {
+      align-items: center;
+      display: flex;
+      gap: 25px;
+    }
+}
+
+.job {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.job-description {
+    font-weight: 300;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.job-details {
+    border-left: solid 3px var(--gray-dark);
+    display: grid;
+    gap: 10px;
+    padding-left: 25px;
+}
+
+.job-years, .job-years {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.jobs {
+    display: grid;
+    gap: 50px;
+}
+
+.work-history-section {
+    display: grid;
+    gap: 100px;
+    justify-items: center;
+    padding: 5vw 0;
+}
+  

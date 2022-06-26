@@ -1,17 +1,8 @@
-import './css/app.css';
-import './js/transition';
+import './app.css';
+import './transition';
 
-// COMPONENTS
-import CallToActionBanner from './components/ctaBanner';
-import CertificatesBanner from './components/certificatesBanner';
-import HeroBanner from "./components/heroBanner";
-import JobHistory from './components/jobsBanner';
-import LanguagesBanner from './components/languagesBanner';
 import SeparatorGradient from './components/decorations/separatorGradient';
-import TopBar from "./components/topBar";
-import TransitionBanner from './components/transitionBanner';
-import ContactBanner from './components/contactBanner';
-import BottomBar from './components/bottomBar';
+import { BottomBar, CertsSection, ContactSection, CtaSection, HeroSection, LanguagesSection, TopBar, TransitionSection, WorkHistorySection } from './containers';
 
 function App() {
   return (
@@ -19,19 +10,19 @@ function App() {
       <TopBar />
       <div className="container">
         {/* Who am I */}
-        <HeroBanner />
-        <LanguagesBanner />
+        <HeroSection />
+        <LanguagesSection />
         <SeparatorGradient />
         {/* What am I looking for */}
-        <TransitionBanner />
+        <TransitionSection />
         {/* Credentials */}
-        <CertificatesBanner />
-        <JobHistory />
+        <CertsSection />
+        <WorkHistorySection />
         <SeparatorGradient />
         {/* Call to Action */}
-        <CallToActionBanner />
+        <CtaSection />
         {/* Contact */}
-        <ContactBanner />
+        <ContactSection />
       </div>
       {/* Bottom Bar */}
       <BottomBar />

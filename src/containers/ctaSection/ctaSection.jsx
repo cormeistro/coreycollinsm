@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import './ctaSection.css';
 
-const CallToActionBanner = () => {
+const CtaSection = () => {
     return (
-        <div className="cta-banner" id="cta-banner">
+        <div className="cta-section" id="cta-section">
             <div className="cta-slogan">
                 <h1>Team-player.</h1>
                 <h1><span className="t-gradient">Trend-setter</span>.</h1>
@@ -14,4 +15,4 @@ const CallToActionBanner = () => {
     );
 }
  
-export default CallToActionBanner;
+export default CtaSection;

@@ -1,3 +1,5 @@
+import './topBar.css';
+
 const TopBar = () => {
     return (
         <div className="top-bar" id="top-bar">
@@ -16,9 +18,6 @@ const TopBar = () => {
                     <a href="#contact-banner"><button className="t-gradient">Contact Me</button></a>
                 </div>
             </div>
-            {/* <div className="hamburger-menu">
-                <i className="fa-solid fa-bars"></i>
-            </div> */}
         </div>
     );
 }

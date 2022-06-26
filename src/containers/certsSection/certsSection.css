@@ -1,0 +1,83 @@
+/* SMALL SCREENS */
+@media only screen and (max-width: 1200px) {
+    .cert {
+      width: 100%;
+    }
+    .cert-details {
+      text-align: center;
+    }
+    .cert-progress-bar i {
+      font-size: 8vw !important;
+    }
+    .cert-progress-line {
+      height: 10px;
+    }
+}
+
+/* BIG SCREENS */
+@media only screen and (min-width: 1200px) {
+    .cert {
+      width: 20vw;
+    }
+    .cert-progress-bar i {
+      font-size: 1.5rem !important;
+    }
+    .cert-progress-line {
+      height: 5px;
+    }
+}
+
+.cert {
+    background-position: 90% 80%;
+    background-size: auto 30%;
+    background-repeat: no-repeat;
+    border: solid 1px var(--gray-dark);
+    display: grid;
+    padding: 50px;
+}
+
+.certs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.certs-section {
+    display: grid;
+    gap: 100px;
+    justify-items: center;
+    padding: 5vw 0;
+}
+
+.cert-details {
+    display: grid;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+.cert-progress-bar {
+    align-items: center;
+    background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+    background-clip: border-box;
+    border-bottom: solid 3px var(--gray-dark);
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    -webkit-background-clip: text;
+}
+
+.cert-progress-line {
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Progress Bar Icons */
+.complete, .inProgress {
+    -webkit-text-fill-color: transparent;
+}
+
+.notStarted {
+    color: var(--gray-dark);
+}

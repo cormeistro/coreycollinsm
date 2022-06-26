@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import jobs from '../data/jobs';
+import jobs from './workHistory';
+import './workHistorySection.css';
 
-class JobHistory extends Component {
+class WorkHistorySection extends Component {
     state = { jobs } 
     render() { 
         return (
-            <div className="jobs-banner" id="jobs-banner">
+            <div className="work-history-section" id="work-history-section">
                 <h2>Work History</h2>
                 <div className="jobs">
 
@@ -41,4 +42,4 @@ class JobHistory extends Component {
     }
 }
  
-export default JobHistory;
+export default WorkHistorySection;

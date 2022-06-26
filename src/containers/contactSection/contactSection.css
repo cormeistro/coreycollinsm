@@ -1,0 +1,51 @@
+.contact-section {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    padding: 5vw 0;
+}
+
+.contact-fields {
+    display: grid;
+    gap: 25px;
+}
+
+.contact-form {
+    display: grid;
+    gap: 25px;
+    padding: 25px;
+}
+
+.contact-fields button {
+    max-width: 150px;
+    padding: 15px 25px;
+}
+
+.contact-row {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-row sup {
+    color: var(--primary-light);
+    font-size: 50%;
+    margin-right: 5px;
+}
+
+.contact-row input {
+    height: 40px;
+}
+
+.contact-row input, .contact-row textarea {
+    border: 1px solid var(--gray-light);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+.contact-row textarea {
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}

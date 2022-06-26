@@ -1,0 +1,10 @@
+export { default as all } from "./all.svg";
+export { default as angular } from "./angular.svg";
+export { default as html } from "./html.svg";
+export { default as java } from "./java.svg";
+export { default as javascript } from "./javascript.svg";
+export { default as node } from "./node.svg";
+export { default as python } from "./python.svg";
+export { default as react } from "./react.svg";
+export { default as sql } from "./sql.svg";
+export { default as typescript } from "./typescript.svg";

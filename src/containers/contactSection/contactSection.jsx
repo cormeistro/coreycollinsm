@@ -1,6 +1,8 @@
-const ContactBanner = () => {
+import './contactSection.css';
+
+const ContactSection = () => {
     return (
-        <div className="contact-banner" id="contact-banner">
+        <div className="contact-section" id="contact-section">
             <div className="contact-left">
                 <h6>Ready to talk?</h6>
                 <h3>Let's connect.</h3>
@@ -27,4 +29,4 @@ const ContactBanner = () => {
     );
 }
  
-export default ContactBanner;
+export default ContactSection;

@@ -1,26 +1,17 @@
 import React, { Component } from 'react';
 
-import certs from '../data/certs';
+import certs from './certs';
+import './certsSection.css';
+import { all, angular, html, java, javascript, node, python, react, sql, typescript } from './icons';
 
-import all from "../images/all.svg";
-import angular from "../images/angular.svg";
-import html from "../images/html.svg";
-import java from "../images/java.svg";
-import javascript from "../images/javascript.svg";
-import node from "../images/node.svg";
-import python from "../images/python.svg";
-import react from "../images/react.svg";
-import sql from "../images/sql.svg";
-import typescript from "../images/typescript.svg";
-
-class CertificatesBanner extends Component {
+class CertificatesSection extends Component {
     state = {
         certs
     } 
 
     render() {
         return (
-            <div className="certs-banner" id="certs-banner">
+            <div className="certs-section" id="certs-section">
                 <h2>Certifications</h2>
                 <div className="certs">
                     {this.state.certs
@@ -51,9 +42,6 @@ class CertificatesBanner extends Component {
     }
 
     getProgress(num) {
-
-        const inProgress = "-dot";
-        const complete = "-check";
     
         return (
             <div className="cert-progress-bar">
@@ -100,4 +88,4 @@ class CertificatesBanner extends Component {
     }
 }
  
-export default CertificatesBanner;
+export default CertificatesSection;

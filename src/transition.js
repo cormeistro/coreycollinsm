@@ -1,9 +1,9 @@
 window.addEventListener('scroll', (e) => {
 
-    const startElement = document.getElementById("languages-banner");
+    const startElement = document.getElementById("languages-section");
     const startPosition = startElement.getBoundingClientRect().top;
     
-    const endElement = document.getElementById("jobs-banner");
+    const endElement = document.getElementById("work-history-section");
     const endPosition = endElement.getBoundingClientRect().bottom;
     
     if (startPosition < 0 && endPosition > 0) {
