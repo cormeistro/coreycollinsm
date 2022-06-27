@@ -48,10 +48,10 @@ const HeroSection = () => {
                     <button onClick={closeModal} style={ { padding: '10px 25px' } }>X</button>
                     <ContactForm />
                 </Modal>
-                <a href="http://instagram.com/cormeistro" rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
-                <a href="http://twitter.com/cormeistro" rel="noreferrer" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
+                <a href="http://instagram.com/coreycollinsm" rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
+                <a href="http://twitter.com/coreycollinsm" rel="noreferrer" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
                 <a href="https://www.linkedin.com/in/corey-collins-925314154/" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/cormeistro" rel="noreferrer" target="_blank"><i className="fa-brands fa-github-square"></i></a>
+                <a href="https://github.com/coreycollinsm" rel="noreferrer" target="_blank"><i className="fa-brands fa-github-square"></i></a>
             </div>
         </div>
     );
