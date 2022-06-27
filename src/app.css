@@ -1,17 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
-
-:root {
-  --gray-darker: #222222;
-  --gray-dark: #2A2A2A;
-  --gray-brightened: #333333;
-  --gray-medium: #777777;
-  --gray-light: #EEEEEE;
-  --primary-dark: #5f55ab;
-  --primary-light: #f43b47;
-  --complete: #EEEEEE;
-  --active: #777777;
-}
-
 /* SMALL SCREENS */
 @media only screen and (max-width: 1200px) {
   button {
@@ -72,8 +58,10 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -81,7 +69,6 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;

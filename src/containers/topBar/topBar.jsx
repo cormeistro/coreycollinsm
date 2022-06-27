@@ -1,6 +1,32 @@
+import React from 'react';
+import Modal from 'react-modal';
 import './topBar.css';
+import { ContactForm } from '../../components';
+
+const modalStyles = {
+    content: {
+        display: 'grid',
+        justifyItems: 'right',
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+    },
+};
 
 const TopBar = () => {
+    const [modalIsOpen, setIsOpen] = React.useState(false);
+
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function closeModal() {
+        setIsOpen(false);
+    }
+
     return (
         <div className="top-bar" id="top-bar">
             <div className="logo">
@@ -15,7 +41,17 @@ const TopBar = () => {
             </nav>
             <div className="bg-gradient blip btn-contact">
                 <div className="bg-light border-gradient-inner">
-                    <a href="#contact-section"><button className="t-gradient">Contact Me</button></a>
+                    <button className="t-gradient" onClick={openModal}>Contact Me</button>
+                    <Modal
+                    isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    style={modalStyles}
+                    contentLabel="Example Modal"
+                    ariaHideApp={false}
+                    >
+                    <button onClick={closeModal} style={ { padding: '10px 25px' } }>X</button>
+                    <ContactForm />
+                    </Modal>
                 </div>
             </div>
         </div>

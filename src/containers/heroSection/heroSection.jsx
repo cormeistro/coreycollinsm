@@ -1,6 +1,32 @@
 import './heroSection.css';
+import { ContactForm } from '../../components';
+import React from 'react';
+import Modal from 'react-modal';
+
+const modalStyles = {
+    content: {
+        display: 'grid',
+        justifyItems: 'right',
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+    },
+};
 
 const HeroSection = () => {
+    const [modalIsOpen, setIsOpen] = React.useState(false);
+
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function closeModal() {
+        setIsOpen(false);
+    }
+
     return (
         <div className="hero-section" id="hero-section">
             <div className="hero-slogan">
@@ -11,7 +37,17 @@ const HeroSection = () => {
                 <p>I spent 10 years as a Project Manager, soaking up all the experience I could. Now, I spend my days learning full stack development and working on projects that bring solutions to real-world problems.</p>
             </div>
             <div className="hero-links">
-                <a href="#contact-section"><button className="bg-gradient btn-contact">Contact Me</button></a>
+                <button className="bg-gradient btn-contact" onClick={openModal}>Contact Me</button>
+                <Modal
+                    isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    style={modalStyles}
+                    contentLabel="Example Modal"
+                    ariaHideApp={false}
+                    >
+                    <button onClick={closeModal} style={ { padding: '10px 25px' } }>X</button>
+                    <ContactForm />
+                </Modal>
                 <a href="http://instagram.com/cormeistro" rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
                 <a href="http://twitter.com/cormeistro" rel="noreferrer" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
                 <a href="https://www.linkedin.com/in/corey-collins-925314154/" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
