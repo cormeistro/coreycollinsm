@@ -1,4 +1,5 @@
 import './transitionSection.css';
+import { twitterURL } from '../../links';
 
 const TransitionSection = () => {
     return (
@@ -12,7 +13,7 @@ const TransitionSection = () => {
             <div className="transition-column">
                 <h3>Full Stack Developer</h3>
                 <h4>Developing full stack methodology.</h4>
-                <p>After years of waiting, I stepped out of my comfort zone to pursue a career in programming. With help from some senior developers, I created an educational outline for every topic I would need to get started. Though I'll never stop learning, earning a job in tech is now my public goal. <a className="t-gradient" href="http://twitter.com/cormeistro" target="_blank"><i className="fa-solid fa-globe"></i> Follow my journey</a>.</p>
+                <p>After years of waiting, I stepped out of my comfort zone to pursue a career in programming. With help from some senior developers, I created an educational outline for every topic I would need to get started. Though I'll never stop learning, earning a job in tech is now my public goal. <a className="t-gradient" href={twitterURL} target="_blank" rel="noreferrer"><i className="fa-solid fa-globe"></i> Follow my journey</a>.</p>
             </div>
         </div>
     );

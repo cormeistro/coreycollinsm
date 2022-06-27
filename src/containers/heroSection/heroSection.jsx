@@ -2,6 +2,7 @@ import './heroSection.css';
 import { ContactForm } from '../../components';
 import React from 'react';
 import Modal from 'react-modal';
+import { twitterURL, githubURL, linkedInURL, instagramURL } from '../../links';
 
 const modalStyles = {
     content: {
@@ -48,10 +49,10 @@ const HeroSection = () => {
                     <button onClick={closeModal} style={ { padding: '10px 25px' } }>X</button>
                     <ContactForm />
                 </Modal>
-                <a href="http://instagram.com/coreycollinsm" rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
-                <a href="http://twitter.com/coreycollinsm" rel="noreferrer" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
-                <a href="https://www.linkedin.com/in/corey-collins-925314154/" rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/coreycollinsm" rel="noreferrer" target="_blank"><i className="fa-brands fa-github-square"></i></a>
+                <a href={instagramURL} rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
+                <a href={twitterURL} rel="noreferrer" target="_blank"><i className="fa-brands fa-twitter-square"></i></a>
+                <a href={linkedInURL} rel="noreferrer" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                <a href={githubURL} rel="noreferrer" target="_blank"><i className="fa-brands fa-github-square"></i></a>
             </div>
         </div>
     );
