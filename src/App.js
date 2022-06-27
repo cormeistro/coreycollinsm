@@ -30,8 +30,8 @@ function App() {
   );
 }
 
-function handleNotificationDismiss() {
-  document.getElementById("bar-notification").style.display = "none";
-}
+// function handleNotificationDismiss() {
+//   document.getElementById("bar-notification").style.display = "none";
+// }
 
 export default App;
