@@ -3,13 +3,13 @@
 :root {
     font-family: 'Roboto', sans-serif;
 
+    --gray-darkest: #111111;
     --gray-darker: #222222;
     --gray-dark: #2A2A2A;
-    --gray-brightened: #333333;
+    --gray-light: #333333;
     --gray-medium: #777777;
-    --gray-light: #EEEEEE;
+    --gray-bright: #EEEEEE;
+
     --primary-dark: #5f55ab;
     --primary-light: #f43b47;
-    --complete: #EEEEEE;
-    --active: #777777;
 }

@@ -1,62 +1,3 @@
-/* SMALL SCREENS */
-@media only screen and (max-width: 1200px) {
-  button {
-    font-size: 2.5vw;
-  }
-  h1 {
-    font-size: 10vw; 
-  }
-  h2, h3 {
-    font-size: 8vw; 
-  }
-  h4 {
-    font-size: 5vw;
-  }
-  h5 {
-    font-size: 3rem;
-  }
-  h6 {
-    font-size: 2.5rem;
-  }
-  i {
-    font-size: 10vw;
-  }
-  p {
-    font-size: 4vw;
-  }
-  .blip {
-    display: none;
-  }
-}
-
-/* BIG SCREENS */
-@media only screen and (min-width: 1200px) {
-  button {
-    font-size: 1rem;
-  }
-  h1 {
-    font-size: 5rem; 
-  }
-  h2 {
-    font-size: 3.5rem; 
-  }
-  h3 {
-    font-size: 3rem;
-  }
-  h4 {
-    font-size: 1.75rem;
-  }
-  h5 {
-    font-size: 1.5rem;
-  }
-  h6 {
-    font-size: 1.25rem;
-  }
-  i {
-    font-size: 3vw;
-  }
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -75,47 +16,6 @@ body {
   -o-transition: all 0.5s ease;
 }
 
-button {
-  background: none;
-  border: none;
-  font-weight: 900;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-h6 {
-  font-weight: 300;
-}
-
-.bar-notification {
-  align-items: center;
-  display: flex;
-  gap: 25px;
-  justify-content: center;
-  padding: 10px 25px;
-  text-align: justify;
-}
-
-.bar-notification button {
-  border: solid 1px var(--gray-light);
-  border-radius: 10px;
-  color: var(--gray-light);
-  padding: 5px 10px;
-}
-
-.bg-brightened {
-  background-color: var(--gray-brightened);
-}
-
-.bg-code {
-  background: url(./images/Code\ Banner.png);
-  background-attachment: fixed;
-  background-size: contain;
-  color: var(--gray-light);
-}
-
 .bg-dark {
   background-color: var(--gray-dark);
   color: var(--gray-light);
@@ -127,49 +27,8 @@ h6 {
 }
 
 .bg-light {
-  background-color: var(--gray-light);
+  background-color: var(--gray-bright);
   color: var(--gray-dark);
-}
-
-.bg-medium {
-  background-color: var(--gray-medium);
-  color: var(--gray-light);
-}
-
-.bg-white {
-  background-color: white;
-  color: var(--gray-dark);
-}
-
-.border-gradient {
-  max-width: 100px;
-}
-
-.border-gradient-inner {
-  margin: 3px;
-  padding: 10px;
-  text-align: center;
-}
-
-.container {
-  display: grid;
-  margin: 0 50px;
-}
-
-.inactive {
-  color: var(--gray-medium);
-  cursor: not-allowed;
-  text-decoration: line-through;
-}
-
-.j-right {
-  justify-content: right;
-  justify-items: right;
-  text-align: right;
-}
-
-.separator {
-  height: 3px;
 }
 
 .t-gradient {

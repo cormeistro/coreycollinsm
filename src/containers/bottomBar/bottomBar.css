@@ -1,8 +1,0 @@
-.bottom-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 2.5vh;
-    position: sticky;
-    bottom: 0px;
-  }

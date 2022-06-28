@@ -1,37 +1,27 @@
 import './app.css';
-import './transition';
-
-import SeparatorGradient from './components/decorations/separatorGradient';
-import { BottomBar, CertsSection, ContactSection, CtaSection, HeroSection, LanguagesSection, TopBar, TransitionSection, WorkHistorySection } from './containers';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home } from './pages';
+import { Logo, NavBar, Button } from './components';
 
 function App() {
   return (
-    <>
-      <TopBar />
-      <div className="container">
-        {/* Who am I */}
-        <HeroSection />
-        <LanguagesSection />
-        <SeparatorGradient />
-        {/* What am I looking for */}
-        <TransitionSection />
-        {/* Credentials */}
-        <CertsSection />
-        <WorkHistorySection />
-        <SeparatorGradient />
-        {/* Call to Action */}
-        <CtaSection />
-        {/* Contact */}
-        <ContactSection />
+    <div className="mainWrapper">
+      <div className="topBar">
+        <Logo />
+        <NavBar />
+        <Button text="Contact Me" url="/contact" />
       </div>
-      {/* Bottom Bar */}
-      <BottomBar />
-    </>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/certifications" element={<h1>Certifications Section</h1>} />
+          <Route path="/work-history" element={<h1>Work History Section</h1>} />
+          <Route path="/projects" element={<h1>Projects Section</h1>} />
+          <Route path="/contact" element={<h1>Contact Section</h1>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
-
-// function handleNotificationDismiss() {
-//   document.getElementById("bar-notification").style.display = "none";
-// }
 
 export default App;
