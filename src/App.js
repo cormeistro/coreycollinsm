@@ -1,23 +1,24 @@
 import './app.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './pages';
-import { Logo, NavBar, Button } from './components';
+import { NavBar, SubmitButton } from './components';
+import { Contact, Home } from './pages';
 
 function App() {
   return (
-    <div className="mainWrapper">
-      <div className="topBar">
-        <Logo />
+    <div className="main-wrapper">
+      <div className="section top-bar">
+        <a href="/"><h1 className="logo t-gradient">corey.collins<sup>m</sup></h1></a>
         <NavBar />
-        <Button text="Contact Me" url="/contact" />
+        <SubmitButton fill="bright" text="Contact Me" url="/contact" />
       </div>
+
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/certifications" element={<h1>Certifications Section</h1>} />
           <Route path="/work-history" element={<h1>Work History Section</h1>} />
           <Route path="/projects" element={<h1>Projects Section</h1>} />
-          <Route path="/contact" element={<h1>Contact Section</h1>} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

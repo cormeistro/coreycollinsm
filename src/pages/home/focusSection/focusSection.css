@@ -1,0 +1,46 @@
+/* Regular Screens */
+@media screen and (min-width: 1000px) {
+    .focus br {
+        display: none;
+    }
+    .focus-section h2 {
+        font-size: 2vw;
+    }
+}
+
+/* Small Screens */
+@media screen and (max-width: 1000px) {
+    .focus-section h2 {
+        font-size: 5vw;
+    }
+}
+
+.focus {
+    padding: 500px 0;
+}
+
+.focus-section {
+    align-content: center;
+    background: url('./assets/bg-code.png');
+    background-position: center;
+    background-size: contain;
+    color: var(--gray-bright);
+    display: grid;
+    justify-content: center;
+}
+
+.focus-section h1 {
+    font-size: 8vw;
+}
+
+.focus-section h1, .focus-section h2 {
+    text-align: center;
+}
+
+.focus-section h2 {
+    font-weight: 300;
+}
+
+.focus-section span {
+    font-weight: 700;
+}

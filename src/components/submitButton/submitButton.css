@@ -1,0 +1,32 @@
+.submit-button-outer {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.submit-button-inner {
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.submit-button-inner a {
+    color: unset;
+}
+
+.submit-button-inner button {
+    background: unset;
+    border: unset;
+    color: var(--gray-bright);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.submit-button-outer .bright {
+    background-color: var(--gray-bright);
+}
+
+.submit-button-outer .bright button {
+    background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

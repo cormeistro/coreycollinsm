@@ -1,0 +1,107 @@
+/* Regular Screens */
+@media screen and (min-width: 1000px) {
+    .contact-page-cta h1 {
+        font-size: 4vw;
+    }
+    .contact-page-cta h2 {
+        font-size: 2.5vw;
+    }
+    .contact-page-fields {
+        gap: 25px;
+    }
+    .contact-page-fields button {
+        font-size: 2.5vw;
+    }
+    .contact-page-fields h2 {
+        font-size: 2vw;
+    }
+    .contact-page-fields input, .contact-page-fields textarea {
+        font-size: 125%;
+        padding: 10px;
+    }
+    .contact-page-form h1 {
+        font-size: 4vw;
+    }
+    .contact-page-row {
+        gap: 10px;
+    }
+}
+
+/* Small Screens */
+@media screen and (max-width: 1000px) {
+    .contact-page-cta h1 {
+        font-size: 10vw;
+    }
+    .contact-page-cta h2 {
+        font-size: 8vw;
+    }
+    .contact-page-fields {
+        gap: 50px;
+    }
+    .contact-page-fields button {
+        font-size: 8vw;
+    }
+    .contact-page-fields h2 {
+        font-size: 5vw;
+    }
+    .contact-page-fields input, .contact-page-fields textarea {
+        font-size: 250%;
+        padding: 25px;
+    }
+    .contact-page-form h1 {
+        font-size: 8vw;
+    }
+    .contact-page-row {
+        gap: 25px;
+    }
+    .contact-page-section {
+        flex-direction: column;
+        padding: 200px 0;
+    }
+}
+
+.contact-page-section {
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.contact-page-cta h2 {
+    font-weight: 300;
+}
+
+.contact-page-fields {
+    display: grid;
+}
+
+.contact-page-fields button {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-page-fields input, .contact-page-fields textarea {
+    border: unset;
+    border-radius: 10px;
+    font-family: unset;
+    resize: none;
+}
+
+.contact-page-form {
+    border-radius: 25px;
+    display: grid;
+    gap: 50px;
+    padding: 50px;
+}
+
+.contact-page-row {
+    display: grid;
+}
+
+.contact-page-row sup {
+    color: var(--primary-light);
+    font-size: 50%;
+    padding-right: 5px;
+}

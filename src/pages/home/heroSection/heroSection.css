@@ -1,0 +1,79 @@
+/* Regular Screens */
+@media screen and (min-width: 1000px) {
+    .hero-links {
+        gap: 25px;
+    }
+    .hero-links-socials {
+        font-size: 2rem;
+    }
+    .hero-quote h2 {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+    .hero-section {
+        background: linear-gradient( 0deg, var(--gray-bright) 10%, rgba(0, 0, 0, 0) 100%), url('./assets/banner.png');
+        gap: 50px;
+        min-height: 700px;
+        padding: 150px 10vw;
+    }
+    .hero-slogan h1 {
+        font-size: 4vw;
+    }
+}
+
+/* Small Screens */
+@media screen and (max-width: 1000px) {
+    .hero-links {
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .hero-links .submit-button {
+        display: none;
+    }
+    .hero-links-socials {
+        font-size: 10vw;
+    }
+    .hero-quote h2 {
+        font-size: 3vw;
+        line-height: 7vw;
+    }
+    .hero-section {
+        gap: 25px;
+        margin: 50px 0;
+        padding: 150px 50px;
+    }
+    .hero-slogan h1 {
+        font-size: 10vw;
+    }
+}
+
+.hero-links {
+    align-items: center;
+    display: flex;
+}
+
+.hero-links-socials {
+    display: flex;
+    gap: 25px;
+}
+
+.hero-links-socials a {
+    color: unset;
+}
+
+.hero-quote h2 {
+    font-weight: 500;
+}
+
+.hero-section {
+    align-content: center;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+}
+
+.hero-slogan svg {
+    font-size: 50%;
+}

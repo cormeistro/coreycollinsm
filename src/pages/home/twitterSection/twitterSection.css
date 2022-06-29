@@ -1,0 +1,62 @@
+/* Regular Screens */
+@media screen and (min-width: 1000px) {
+    .twitter br {
+        display: none;
+    }
+    .twitter-section h2 {
+        font-size: 2vw;
+    }
+    .twitter-section svg {
+        font-size: 10vw;
+    }
+}
+
+/* Small Screens */
+@media screen and (max-width: 1000px) {
+    .twitter-section h2 {
+        font-size: 5vw;
+    }
+    .twitter-section svg {
+        font-size: 20vw;
+    }
+}
+
+.twitter {
+    justify-items: center;
+    display: grid;
+    padding: 500px 0;
+}
+
+.twitter-section {
+    align-content: center;
+    background-color: var(--twitter-blue);
+    background-position: center;
+    background-size: cover;
+    color: var(--gray-bright);
+    display: grid;
+    justify-content: center;
+}
+
+.twitter-section a {
+    color: unset;
+}
+
+.twitter-section h1 {
+    font-size: 8vw;
+}
+
+.twitter-section h1, .twitter-section h2 {
+    text-align: center;
+}
+
+.twitter-section h2 {
+    font-weight: 300;
+}
+
+.twitter-section span {
+    font-weight: 700;
+}
+
+.twitter-section svg {
+    padding: 25px 0;
+}

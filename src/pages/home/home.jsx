@@ -1,10 +1,17 @@
 import './home.css';
+import { ContactSection, FocusSection, HeroSection, LeapSection, LoadingSection, PathSection, TwitterSection } from './';
 
 const Home = () => {
     return (
-        <div className="homeSection">
-            <h1>Home Section</h1>
-        </div>
+        <>
+            <HeroSection />
+            <LoadingSection />
+            <LeapSection />
+            <FocusSection />
+            <PathSection />
+            <TwitterSection />
+            <ContactSection />
+        </>
     );
 }
  

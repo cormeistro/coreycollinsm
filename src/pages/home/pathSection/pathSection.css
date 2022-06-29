@@ -1,0 +1,47 @@
+/* Regular Screens */
+@media screen and (min-width: 1000px) {
+    .path br {
+        display: none;
+    }
+    .path-section h2 {
+        font-size: 2vw;
+    }
+}
+
+/* Small Screens */
+@media screen and (max-width: 1000px) {
+    .path-section h2 {
+        font-size: 5vw;
+    }
+}
+
+.path {
+    padding: 500px 0;
+}
+
+.path-section {
+    align-content: center;
+    background: url("./assets/Path.svg");
+    background-position: center;
+    background-size: cover;
+    color: var(--gray-bright);
+    display: grid;
+    justify-content: center;
+}
+
+.path-section h1 {
+    font-size: 8vw;
+}
+
+.path-section h1, .path-section h2 {
+    text-align: center;
+    text-shadow: #704242 5px 5px 15px;
+}
+
+.path-section h2 {
+    font-weight: 300;
+}
+
+.path-section span {
+    font-weight: 700;
+}

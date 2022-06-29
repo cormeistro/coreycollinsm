@@ -1,0 +1,72 @@
+@media screen and (min-width: 1000px) {
+    .hamburger, .nav-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hamburger svg {
+        font-size: 7.5vw;
+    }
+    .nav-full {
+        display: none;
+    }
+    .nav-small {
+        font-size: 7.5vw;
+        right: 50px;
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav-small {
+        right: 0;
+        top: 75px;
+    }
+}
+
+.hamburger {
+    text-align: right;
+}
+
+.navbar {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.nav-full a {
+    color: unset;
+}
+
+.nav-full a:hover, .nav-small a:hover {
+    background: linear-gradient(to right, var(--primary-dark), var(--primary-light));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-full ul {
+    list-style: none;
+}
+
+.nav-full ul, .nav-small ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-small {
+    background-color: var(--gray-dark);
+    border-radius: 5px;
+    padding: 25px;
+    position: absolute;
+}
+
+.nav-small a {
+    color: var(--gray-bright);
+}
+
+.nav-small ul {
+    display: grid;
+    gap: 25px;
+}
