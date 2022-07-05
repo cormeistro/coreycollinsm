@@ -5,8 +5,8 @@ const LoadingSection = () => {
         <div className="loading-section section">
             <div className="loading">
                 <div className="loading-text">
-                    <h1>Searching...</h1>
-                    <h2>Looking for an <span>adventurous</span> job in tech.</h2>
+                    <h1>I'm Searching...</h1>
+                    <h2>For my first job as a front-end developer. <br /><span>Take a chance</span> on me.</h2>
                 </div>
                 <div className="progress-container">
                     <div className="progress-back">
