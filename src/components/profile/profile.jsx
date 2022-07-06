@@ -25,11 +25,12 @@ const Profile = () => {
             </div>
             <h1 className="t-gradient">Hi, I'm Corey.</h1>
             <div className="profile-text">
-                <p>I am transitioning into development after 10 years as a Project Manager. I have loved my past experiences, but web development is what I am most passionate about. I am seeking my first role as a Jr Developer with a company that would like an experienced professional who is driven to grow and adapt. I am willing to ask questions, but also seek out answers myself.
+                <p>
+                    In April, I voluntarily left my 10-year career as a Project Manager to pursue my passion of programming. I now spend my days learning my tech stack, networking, and practicing on practical projects. I am searching for my first job in tech as a Jr Web Developer.
                 </p>
                 <br />
                 <p>
-                No amount of education will prepare me 100% for any role in tech. I invite you to a conversation with me to learn where we may be able to help each other. If I am not a good fit for a role with your company, I would still value any input on my progress and what you might expect if I were to apply again in the future. I have found nothing but encouragement from the tech community on my journey, and I would cherish any input you have. Regardless of your decision, I wish you the best on all of your future endeavors.
+                    I am currently working with HTML, CSS, JavaScript while pursuing MERN. My front end abilities are solidifying daily as I move on to my studies of MongoDB & Express to handle back end.
                 </p>
             </div>
         </div>

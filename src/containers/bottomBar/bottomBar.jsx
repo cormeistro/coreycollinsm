@@ -1,5 +1,4 @@
 import './bottomBar.css';
-import { BsHouse, BsAward, BsBriefcase, BsLink45Deg } from 'react-icons/bs';
 import { ImHome, ImTrophy, ImBriefcase, ImSphere } from 'react-icons/im';
 
 
