@@ -1,0 +1,49 @@
+.profile-image {
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.profile-image img {
+    height: 250px;
+    width: 250px;
+}
+
+.profile-links {
+    display: flex;
+    font-size: 4rem;
+    gap: 25px;
+}
+
+.profile-links .link {
+    align-items: center;
+    border: solid 5px var(--blue-bright);
+    border-radius: 50%;
+    color: var(--blue-bright);
+    display: flex;
+    height: 125px;
+    justify-content: center;
+    width: 125px;
+}
+
+.profile-section {
+    color: var(--gray-bright);
+    display: grid;
+    gap: 50px;
+    justify-items: center;
+    max-width: 800px;
+    padding: 100px 50px;
+}
+
+.profile-section h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.profile-text {
+    font-size: 2rem;
+    font-weight: 300;
+    height: 500px;
+    line-height: 3rem;
+    overflow: scroll;
+    text-align: justify;
+}

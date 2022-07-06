@@ -1,5 +1,5 @@
 .circle1 {
-    background: linear-gradient(to bottom right, var(--pink), transparent);
+    background: linear-gradient(to bottom right, var(--blue-dark), transparent);
     border-radius: 50%;
     height: 400px;
     position: absolute;
@@ -9,7 +9,7 @@
 }
 
 .circle2 {
-    background: linear-gradient(to bottom left, var(--cyan), transparent);
+    background: linear-gradient(to bottom left, var(--blue-dark), transparent);
     border-radius: 50%;
     height: 350px;
     position: absolute;
@@ -19,7 +19,7 @@
 }
 
 .circle3 {
-    background: linear-gradient(to top, var(--purple), transparent);
+    background: linear-gradient(to top, var(--blue-dark), transparent);
     border-radius: 50%;
     height: 300px;
     position: absolute;

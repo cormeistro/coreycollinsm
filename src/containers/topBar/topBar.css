@@ -2,10 +2,10 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 75px 50px;
+    padding: 50px;
     position: sticky;
     top: 0px;
-    z-index: 100;
+    z-index: 5;
 }
 
 .top-bar-section h1 {

@@ -21,9 +21,9 @@
 
 .xp-section-right {
     align-items: center;
-    background-color: var(--gray-bright);
+    background-color: var(--blue-dark);
     border-radius: 50%;
-    color: var(--blue-bright);
+    color: var(--gray-bright);
     display: flex;
     font-size: 5rem;
     height: 150px;

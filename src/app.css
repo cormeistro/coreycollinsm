@@ -3,9 +3,10 @@
 :root {
     font-family: 'Roboto', sans-serif;
 
+    --blue-darker: #192631;
     --blue-dark: #293641;
     --blue-medium: #394651;
-    --blue-light: #394651;
+    --blue-light: #495661;
     --blue-bright: #596671;
 
     --gray-darkest: #111111;
@@ -40,6 +41,7 @@ a {
 }
 
 body {
+    background-color: var(--blue-dark);
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -54,7 +56,7 @@ button {
 }
 
 .bg-glass {
-    backdrop-filter: blur( 100px );
+    backdrop-filter: blur( 12.5px );
     background: rgba( 150, 175, 200, 0.1 );
     box-shadow: 0 8px 32px 0 rgba( 50, 50, 50, 0.5 );
     border: 1px solid rgba( 255, 255, 255, 0.2 );
