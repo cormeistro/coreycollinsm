@@ -70,7 +70,6 @@
 
 .hero-section-cta button {
     border: solid 1px var(--gray-bright);
-    border-radius: 25px;
     font-weight: 300;
 }
 
