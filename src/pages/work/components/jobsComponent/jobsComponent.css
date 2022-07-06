@@ -1,0 +1,48 @@
+/* Small Screens */
+@media screen and (max-width: 1250px) {
+    .job h1 {
+        font-size: 4rem;
+    }
+    .job h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .job li {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+}
+
+/* Big Screens */
+@media screen and (min-width: 1250px) {
+    .job h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .job li {
+        line-height: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+.jobs-comp {
+    display: grid;
+    gap: 100px;
+}
+
+.job {
+    display: grid;
+    gap: 50px;
+}
+
+.job h1 {
+    font-weight: 700;
+}
+
+.job h1 span {
+    font-weight: 100;
+}
+
+.job li {
+    list-style: none;
+}

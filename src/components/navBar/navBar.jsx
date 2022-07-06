@@ -9,12 +9,17 @@ const NavBar = () => {
     const Menu = () => {
         return (
             <ul>
-                <a className="active" href="/"><li>Home</li></a>
-                <a href="/work"><li>Work</li></a>
-                <a href="/about"><li>About</li></a>
-                <a href="/contact"><li>Contact</li></a>
+                <a className={setStyle('/')} href="/"><li>Home</li></a>
+                <a className={setStyle('/work')} href="/work"><li>Work</li></a>
+                <a className={setStyle('/certificates')} href="/certificates"><li>Certificates</li></a>
+                <a className={setStyle('/about')} href="/about"><li>About</li></a>
+                <a className={setStyle('/contact')} href="/contact"><li>Contact</li></a>
             </ul>
         );
+    }
+
+    const setStyle = (page) => {
+        if (page === window.location.pathname) return 'active';
     }
     
     return (

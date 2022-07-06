@@ -1,0 +1,32 @@
+/* Small Screens */
+@media screen and (max-width: 1250px) {
+    .certs-section-title h1 {
+        font-size: 5rem;
+    }
+}
+
+/* Big Screens */
+@media screen and (min-width: 1250px) {
+    .certs-section-title h1 {
+        font-size: 3rem;
+    }
+}
+
+.certs-section {
+    background:
+    radial-gradient(1000px 1000px at 0% 0%, var(--gray-medium), transparent),
+    radial-gradient(1000px 1000px at 100% 100%, var(--gray-light), transparent);
+    display: grid;
+    gap: 50px;
+    margin: 150px 25px 50px 25px;
+    padding: 100px;
+}
+
+.certs-section-border {
+    background-color: var(--gray-medium);
+    height: 1px;
+}
+
+.certs-section-title h1 {
+    font-weight: 700;
+}

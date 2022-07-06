@@ -1,0 +1,1 @@
+export { default as CertsSection } from './certsSection/certsSection'

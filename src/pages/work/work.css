@@ -1,0 +1,9 @@
+.work-page {
+    align-items: center;
+    background:
+        radial-gradient(1000px 1000px at 10% 25%, var(--gray-light), transparent),
+        radial-gradient(1000px 1000px at 90% 100%, var(--gray-light), transparent);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}

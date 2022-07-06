@@ -1,0 +1,48 @@
+/* Small Screens */
+@media screen and (max-width: 1250px) {
+    .cert h1 {
+        font-size: 4rem;
+    }
+    .cert h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .cert li {
+        line-height: 5rem;
+        font-size: 3rem;
+    }
+}
+
+/* Big Screens */
+@media screen and (min-width: 1250px) {
+    .cert h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .cert li {
+        line-height: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+.certs-comp {
+    display: grid;
+    gap: 100px;
+}
+
+.cert {
+    display: grid;
+    gap: 50px;
+}
+
+.cert h1 {
+    font-weight: 700;
+}
+
+.cert h1 span {
+    font-weight: 100;
+}
+
+.cert li {
+    list-style: none;
+}

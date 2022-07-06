@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap');
 
 :root {
     font-family: 'Montserrat', sans-serif;
     
     --gray-darkest: #0D0D0D;
     --gray-dark: #111111;
+    --gray-light: #1a1a1a;
+    --gray-medium: #222222;
     --gray-bright: #EEEEEE;
 
+    --accent-dark: #292e31;
     --accent-light: #3a7ca8;
     --accent-bright: #7ac1f0;
 }
@@ -20,13 +23,6 @@
 
 a {
     text-decoration: none;  
-}
-
-body {
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
 }
 
 button {
