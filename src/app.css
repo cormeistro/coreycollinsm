@@ -1,31 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 :root {
-    font-family: 'Roboto', sans-serif;
-
-    --blue-darker: #192631;
-    --blue-dark: #293641;
-    --blue-medium: #394651;
-    --blue-light: #495661;
-    --blue-bright: #596671;
-
-    --gray-darkest: #111111;
-    --gray-darker: #222222;
-    --gray-dark: #2A2A2A;
-    --gray-light: #444444;
-    --gray-medium: #777777;
+    font-family: 'Montserrat', sans-serif;
+    
+    --gray-darkest: #0D0D0D;
+    --gray-dark: #111111;
     --gray-bright: #EEEEEE;
 
-    --primary-blue: #32c2ff;
-    --primary-blue2:rgb(55, 142, 180);
-    --primary-blue3:rgba(155, 242, 280, .1);
-    --primary-red: #d25656;
-    --primary-green: #32ff7a;
-
-
-    --cyan: #4fffc7;
-    --pink: #ff5fc2;
-    --purple: #7f5fff;
+    --accent-light: #3a7ca8;
+    --accent-bright: #7ac1f0;
 }
 
 * {
@@ -36,12 +19,10 @@
 }
 
 a {
-    color: unset;
     text-decoration: none;  
 }
 
 body {
-    background-color: var(--blue-dark);
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -55,6 +36,11 @@ button {
     cursor: pointer;
 }
 
+.bg-dark {
+    background-color: var(--gray-darkest);
+    color: var(--gray-bright);
+}
+
 .bg-glass {
     backdrop-filter: blur( 12.5px );
     background: rgba( 150, 175, 200, 0.1 );
@@ -62,37 +48,4 @@ button {
     border: 1px solid rgba( 255, 255, 255, 0.2 );
     border-radius: 10px;
     -webkit-backdrop-filter: blur( 11.5px );
-}
-
-.bg-gradient {
-    background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
-}
-
-.main-container {
-    background:
-        radial-gradient(70% 55% at 25% 15%, var(--blue-medium), transparent),
-        radial-gradient(50% 25% at 50% 90%, var(--blue-medium), transparent),
-        var(--blue-dark);
-    color: var(--gray-bright);
-    display: grid;
-    align-content: space-between;
-}
-
-.section-border-radius {
-    border-radius: 100px;
-}
-
-.section-margin {
-    margin: 200px 50px;
-}
-
-.section-padding {
-    padding: 25px 50px;
-}
-
-.t-gradient {
-    background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
