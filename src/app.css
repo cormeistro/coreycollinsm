@@ -1,18 +1,96 @@
-@media screen and (max-width: 1000px) {
-    .logo {
-        font-size: 7.5vw;
-    }
-    .top-bar .submit-button {
-        display: none;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+
+    --blue-dark: #293641;
+    --blue-medium: #394651;
+    --blue-light: #394651;
+    --blue-bright: #596671;
+
+    --gray-darkest: #111111;
+    --gray-darker: #222222;
+    --gray-dark: #2A2A2A;
+    --gray-light: #444444;
+    --gray-medium: #777777;
+    --gray-bright: #EEEEEE;
+
+    --primary-blue: #32c2ff;
+    --primary-blue2:rgb(55, 142, 180);
+    --primary-blue3:rgba(155, 242, 280, .1);
+    --primary-red: #d25656;
+    --primary-green: #32ff7a;
+
+
+    --cyan: #4fffc7;
+    --pink: #ff5fc2;
+    --purple: #7f5fff;
 }
 
-.top-bar {
-    align-items: center;
-    background-color: var(--gray-bright);
-    display: flex;
-    justify-content: space-between;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: unset;
+    text-decoration: none;  
+}
+
+body {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+button {
+    background: unset;
+    border: unset;
+    color: unset;
+    cursor: pointer;
+}
+
+.bg-glass {
+    backdrop-filter: blur( 100px );
+    background: rgba( 150, 175, 200, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 50, 50, 50, 0.5 );
+    border: 1px solid rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur( 11.5px );
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+}
+
+.main-container {
+    background:
+        radial-gradient(70% 55% at 25% 15%, var(--blue-medium), transparent),
+        radial-gradient(50% 25% at 50% 90%, var(--blue-medium), transparent),
+        var(--blue-dark);
+    color: var(--gray-bright);
+    display: grid;
+    align-content: space-between;
+}
+
+.section-border-radius {
+    border-radius: 100px;
+}
+
+.section-margin {
+    margin: 200px 50px;
+}
+
+.section-padding {
     padding: 25px 50px;
-    position: sticky;
-    top: 0px;
+}
+
+.t-gradient {
+    background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -1,0 +1,19 @@
+.bottom-bar-active, .bottom-bar-raised {
+    color: var(--gray-bright);
+}
+
+.bottom-bar-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom-bar-section {
+    bottom: 0px;
+    color: var(--blue-bright);
+    font-size: 5rem;
+    justify-content: space-between;
+    padding: 75px;
+    position: sticky
+}

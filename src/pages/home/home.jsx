@@ -1,17 +1,14 @@
 import './home.css';
-import { ContactSection, FocusSection, HeroSection, LeapSection, LoadingSection, PathSection, TwitterSection } from './';
+import { LanguagesSection, TransitionSection, VennSection, XpSection } from './containers';
 
 const Home = () => {
     return (
-        <>
-            <HeroSection />
-            <LoadingSection />
-            <LeapSection />
-            <FocusSection />
-            <PathSection />
-            <TwitterSection />
-            <ContactSection />
-        </>
+        <div className="home-section">
+            <VennSection />
+            <TransitionSection />
+            <XpSection />
+            <LanguagesSection />
+        </div>
     );
 }
  

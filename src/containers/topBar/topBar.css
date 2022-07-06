@@ -1,0 +1,24 @@
+.top-bar-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.top-bar-section h1 {
+    font-size: 3.5rem;
+}
+
+.top-bar-section .contact-button-comp, .top-bar-section .profile-button-comp {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    font-size: 4rem;
+    height: 150px;
+    justify-content: center;
+    padding: 25px;
+    width: 150px;
+}

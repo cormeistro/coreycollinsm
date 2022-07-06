@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+.transition-section {
+    display: grid;
+    font-family: 'Lato', sans-serif;
+    gap: 50px;
+}
+
+.transition-section h1 {
+    font-size: 8rem;
+    font-weight: 300;
+}
+
+.transition-section h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 5rem;
+}
+
+.transition-section span {
+    background: linear-gradient(to right, var(--primary-blue), var(--primary-green));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
