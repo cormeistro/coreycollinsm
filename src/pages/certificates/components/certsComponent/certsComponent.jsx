@@ -12,7 +12,7 @@ class CertsComponent extends Component {
                     return (
                         <div className="cert" key={cert.id}>
                             <div className="cert-header">
-                                <h1>{cert.title} <span>from</span> {cert.company}</h1>
+                                <h1><span className="blue-text">{cert.title}</span> <span className="thin-text">from</span> {cert.company}</h1>
                                 <h2>{cert.date}</h2>
                             </div>
                             <ul>

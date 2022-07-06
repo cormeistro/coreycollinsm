@@ -12,7 +12,7 @@ class JobsComponent extends Component {
                     return (
                         <div className="job" key={job.id}>
                             <div className="job-header">
-                                <h1>{job.title} <span>at</span> {job.company}</h1>
+                                <h1><span className="blue-text">{job.title}</span> <span className="thin-text">at</span> {job.company}</h1>
                                 <h2>{job.dates}</h2>
                             </div>
                             <ul>

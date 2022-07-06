@@ -39,7 +39,11 @@
     font-weight: 700;
 }
 
-.job h1 span {
+.job .blue-text {
+    color: var(--accent-bright);
+}
+
+.job .thin-text {
     font-weight: 100;
 }
 

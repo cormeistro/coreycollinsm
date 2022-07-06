@@ -39,7 +39,11 @@
     font-weight: 700;
 }
 
-.cert h1 span {
+.cert .blue-text {
+    color: var(--accent-bright);
+}
+
+.cert .thin-text {
     font-weight: 100;
 }
 

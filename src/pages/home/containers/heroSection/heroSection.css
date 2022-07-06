@@ -54,6 +54,10 @@
     font-weight: 400;
 }
 
+.hero-section h1 span {
+    color: var(--accent-bright);
+}
+
 .hero-section h2 {
     font-weight: 300;
 }
