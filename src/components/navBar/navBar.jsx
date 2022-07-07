@@ -10,7 +10,7 @@ const NavBar = () => {
         return (
             <ul>
                 <a className={setStyle('/')} href="/"><li>Home</li></a>
-                <a className={setStyle('/work')} href="/work"><li>Work</li></a>
+                <a className={setStyle('/work-history')} href="/work-history"><li>Work History</li></a>
                 <a className={setStyle('/certificates')} href="/certificates"><li>Certificates</li></a>
                 {/* <a className={setStyle('/about')} href="/about"><li>About</li></a> */}
                 <a className={setStyle('/contact')} href="/contact"><li>Contact</li></a>
