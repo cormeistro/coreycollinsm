@@ -1,5 +1,6 @@
 import './heroSection.css';
 import { instagramURL } from '../../../../links';
+import { RiExternalLinkFill } from 'react-icons/ri';
 
 const HeroSection = () => {
     return (
@@ -7,8 +8,8 @@ const HeroSection = () => {
             <h1>Hi, I'm <span>Corey</span>.</h1>
             <h2>Web Developer | Project Manager | Photographer</h2>
             <div className="hero-section-cta">
-                <a href="/certificates"><button>Certificates</button></a>
-                <a href={instagramURL} rel="noreferrer" target="_blank"><button>My Photography</button></a>
+                <a className="cta" href="/certificates"><button>Certificates</button></a>
+                <a href={instagramURL} rel="noreferrer" target="_blank"><button>My Photography <RiExternalLinkFill /></button></a>
             </div>
         </div>
     );

@@ -1,4 +1,17 @@
+/* Small Screens */
+@media screen and (max-width: 1250px) {
+    .links-bar-comp {
+        gap: 50px;
+    }
+}
+
+/* Big Screens */
+@media screen and (min-width: 1250px) {
+    .links-bar-comp {
+        gap: 25px;
+    }
+}
+
 .links-bar-comp {
     display: flex;
-    gap: 25px;
 }

@@ -1,6 +1,18 @@
 const certsArray = [
     {
         id: 1,
+        title: "Mastering React",
+        company: "CWM",
+        date: "July 2022",
+        bullets: [
+            "Authentication, authorization, deployment and advanced topics",
+            "Routing, forms, and calling back end services",
+            "ES6 refresher & intro to components",
+            "Pagination, filtering, and sorting",
+        ]
+    },
+    {
+        id: 2,
         title: "JavaScript Mastery II",
         company: "CWM",
         date: "May 2022",
@@ -13,7 +25,7 @@ const certsArray = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: "JavaScript Mastery I",
         company: "CWM",
         date: "April 2022",
@@ -26,7 +38,7 @@ const certsArray = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Java Fundamentals",
         company: "CWM",
         date: "December 2020",

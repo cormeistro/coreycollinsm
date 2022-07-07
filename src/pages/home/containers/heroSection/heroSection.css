@@ -13,7 +13,7 @@
         font-size: 3vw;
     }
     .hero-section-cta button {
-        font-size: 4vw;
+        font-size: 3.5vw;
         padding: 20px 25px;
     }
 }
@@ -55,7 +55,7 @@
 }
 
 .hero-section h1 span {
-    color: var(--accent-bright);
+    color: var(--accent-light);
 }
 
 .hero-section h2 {
@@ -74,6 +74,10 @@
 }
 
 .hero-section-cta button:hover {
-    border-color: var(--accent-bright);
+    border-color: var(--accent-bright) !important;
     color: var(--accent-bright);
+}
+
+.hero-section-cta .cta button {
+    border-color: var(--accent-light);
 }
