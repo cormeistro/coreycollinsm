@@ -75,9 +75,13 @@
 
 .hero-section-cta button:hover {
     border-color: var(--accent-bright) !important;
-    color: var(--accent-bright);
 }
 
 .hero-section-cta .cta button {
-    border-color: var(--accent-light);
+    background-color: var(--accent-light);
+    border: solid 1px var(--accent-bright);
+}
+
+.hero-section-cta .cta button:hover {
+    background-color: var(--accent-bright);
 }

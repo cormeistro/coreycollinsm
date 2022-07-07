@@ -25,11 +25,6 @@
     }
 }
 
-.certs-comp {
-    display: grid;
-    gap: 100px;
-}
-
 .cert {
     display: grid;
     gap: 50px;
@@ -49,4 +44,14 @@
 
 .cert li {
     list-style: none;
+}
+
+.certs-comp .ongoing::before {
+    content: "(Ongoing)";
+    color: orange;
+}
+
+.certs-comp {
+    display: grid;
+    gap: 100px;
 }
