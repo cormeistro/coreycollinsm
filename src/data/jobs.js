@@ -28,7 +28,7 @@ const jobArray = [
         dates: "January 2018 - May 2021",
         bullets: [
             "Assisted with planning on new features for web-based digital signage control software",
-            "Worked as a liason between teams of developers, engineers, support, and clients",
+            "Worked as a liaison between teams of developers, engineers, support, and clients",
             "Utilized software such as Sharepoint & SmartSheet to track and share progress"
         ]
     },

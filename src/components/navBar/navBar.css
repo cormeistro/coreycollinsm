@@ -12,6 +12,10 @@
     }
 }
 
+.nav-bar-comp {
+    position: relative
+}
+
 .nav-bar-comp ul {
     font-weight: 300;
     list-style: none;
