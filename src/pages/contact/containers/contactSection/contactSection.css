@@ -69,6 +69,7 @@
     display: grid;
     gap: 50px;
     margin: 150px 25px 50px 25px;
+    min-width: 600px;
     padding: 100px;
 }
 

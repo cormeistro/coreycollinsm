@@ -3,7 +3,7 @@ import { ContactSection } from './containers';
 
 const Contact = () => {
     return (
-        <div className="certs-page">
+        <div className="contact-page">
             <ContactSection />
         </div>
     );

@@ -1,0 +1,21 @@
+.timeline-page {
+    align-items: center;
+    background:
+        radial-gradient(1000px 1000px at 10% 25%, var(--gray-light), transparent),
+        radial-gradient(1000px 1000px at 90% 100%, var(--gray-light), transparent);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.timeline-container {
+    background:
+    radial-gradient(1000px 1000px at 0% 0%, var(--gray-medium), transparent),
+    radial-gradient(1000px 1000px at 100% 100%, var(--gray-light), transparent);
+    display: grid;
+    justify-items: center;
+    gap: 50px;
+    margin-top: 150px;
+    max-width: 1200px;
+    padding: 100px;
+}

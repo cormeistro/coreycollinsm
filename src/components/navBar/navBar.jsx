@@ -1,6 +1,6 @@
 import React from 'react';
 import './navBar.css';
-import { RiMenu2Line, RiCloseLine } from 'react-icons/ri';
+import { RiMenu2Line, RiCloseLine, RiDownload2Line } from 'react-icons/ri';
 
 const NavBar = () => {
 
@@ -10,10 +10,11 @@ const NavBar = () => {
         return (
             <ul>
                 <a className={setStyle('/')} href="/"><li>Home</li></a>
+                <a className={setStyle('/timeline')} href="/timeline"><li>Timeline</li></a>
                 <a className={setStyle('/work-history')} href="/work-history"><li>Work History</li></a>
                 <a className={setStyle('/certificates')} href="/certificates"><li>Certificates</li></a>
-                {/* <a className={setStyle('/about')} href="/about"><li>About</li></a> */}
                 <a className={setStyle('/contact')} href="/contact"><li>Contact</li></a>
+                <a href="/files/resume.pdf" target="_blank" download><li><RiDownload2Line /> Resume</li></a>
             </ul>
         );
     }
