@@ -64,7 +64,7 @@ const certsArray = [
         title: "Complete JavaScript 2022",
         company: "Udemy",
         author: "Jonas Schmedtmann",
-        date: "April 2022",
+        date: "July 2022",
         complete: true,
         bullets: [
             "Asynchronous JS: Promises, Async/Await, and AJAX",
@@ -78,7 +78,7 @@ const certsArray = [
         title: "Responsive HTML & CSS",
         company: "Udemy",
         author: "Jonas Schmedtmann",
-        date: "April 2022",
+        date: "July 2022",
         complete: true,
         bullets: [
             "Web Design rules, freamework & layout patterns",
